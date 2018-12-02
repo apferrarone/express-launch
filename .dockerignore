@@ -1,0 +1,11 @@
+node_modules
+test
+npm-debug.log
+.env
+.env.default
+Dockerfile
+.dockerignore
+Dockerrun.aws.json
+.eslintrc
+.gitignore
+.git
