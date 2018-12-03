@@ -14,11 +14,6 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV == 'development') {
 
 console.log('NODE_ENV: ', process.env.NODE_ENV);
 
-const mongo = {
-  name: 'Mongo',
-  connection: process.env.MONGO_CONNECTION
-};
-
 const config = {
   name: 'Config 1',
   // add other properties (env vars) like connection strings, secrets, etc
